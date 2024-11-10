@@ -2,6 +2,12 @@
 
 ChatSOS is an interactive chat application designed to configure and manage the behavior of a conversational assistant model. It provides an Admin Panel to easily adjust configuration parameters for the chatbot, such as model type, persona, temperature, and more. The application communicates with a backend server to save and retrieve configuration settings.
 
+![chat-sos.png](https://github.com/tiserge2/chat-sos/blob/main/img/chat-sos.png) 
+
+This project implements the Retrieval Augmented Generation (RAG) Architecture.
+
+![rag-system.png](https://github.com/tiserge2/chat-sos/blob/main/img/rag-system.png) 
+
 ## Features
 
 - **Chat Interface**: A user-friendly chat interface for real-time communication with the assistant.
@@ -51,7 +57,7 @@ This will start the React app on http://localhost:3000.
 Make sure you have the required Python libraries installed. Create a virtual environment and install dependencies.
 
 ```bash
-conda create --name chatsos
+conda create --name chat-sos
 conda activate chatsos
 pip install -r requirements.txt
 ```
@@ -89,7 +95,7 @@ The frontend sends a POST request to the backend to update the configuration:
 
 ### File Structure
 
-    ChatSOS/
+    chat-sos/
     │
     ├── frontend/                 # React application (Admin Panel and Chat Interface)
     │   ├── src/
