@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Chat from './components/Chat';
 import Admin from './components/Admin';
 import { Component } from 'react'
@@ -34,6 +34,7 @@ class App extends Component {
 
 
           <Routes>
+              <Route path="/" element={<Navigate to="/chat" replace />} />
               <Route exact path='/chat' element={< Chat />} />
               <Route exact path='/admin' element={< Admin />} />
           </Routes>
