@@ -1,0 +1,83 @@
+/* chat.css */
+
+.chat-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 600px; /* Add fixed height */
+  display: flex;
+  flex-direction: column;
+}
+
+.message-list {
+  flex-grow: 1; /* This will make the message list take up all available space */
+  overflow-y: auto; /* Enable vertical scrolling for the message list */
+}
+
+.message-list > div {
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust the margin for spacing between the message list and the input */
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-left:  10px;
+  cursor: pointer;
+}
+
+.answering-button {
+  background-color: #8f9aa6;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-left:  10px;
+}
+  
+.message-sent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-received {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.file-input-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+#yourBtn {
+  font-family: calibri;
+  padding: 10px;
+  margin-right: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+}

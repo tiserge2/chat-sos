@@ -1,0 +1,44 @@
+/* Admin.css */
+.admin-panel {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-panel h2 {
+    margin-bottom: 15px;
+  }
+  
+  .admin-panel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-panel label {
+    margin-bottom: 5px;
+  }
+  
+  .admin-panel input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
